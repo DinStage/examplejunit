@@ -1,19 +1,18 @@
-package ru.dubrovin.alishevtesting;
+package ru.dubrovin.alishevtesting.test;
 
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
+import ru.dubrovin.alishevtesting.NetworkUtils;
 
-
-import static org.junit.jupiter.api.Assertions.*;
 
 class NetworkUtilsTest {
 
     @Test
     void getConnection() {
     }
-   /* @Test(timeout = 1000)
+    @Test(timeout = 1000)
     public  void getConnectionShouldReturnFastedThanOneSecond() {
         NetworkUtils.getConnection();
     }
 
-    */
+
 }
