@@ -62,6 +62,7 @@ public class UserTest {
     private User user1;
     private User user2;
 
+
     @Before
     public void setUp() throws Exception {
         user = new User("Евгений", 35, Sex.MALE);
